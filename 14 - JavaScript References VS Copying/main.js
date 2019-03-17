@@ -68,9 +68,7 @@
     // how do we take a copy instead?
 
     // We will hopefully soon see the object ...spread
-    const cap3 = {
-        ...person
-    };
+    /* const cap3 = {...person}; */
 
     // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
     const wes = {
